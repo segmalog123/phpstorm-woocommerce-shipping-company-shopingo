@@ -1,0 +1,80 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.tr_completed{
+    background-color: rgb(90 215 44)!important;
+    color:#fff!important;
+}
+.msg_error{ background: #d21919;
+    color: #fff;
+    border-radius: 3px;
+    text-align: left;
+    padding: 2px 6px;}
+
+.v-application input[readonly]{background-color: white}
+.v-application input[type=text]:focus,.v-application input[type=number]:focus,.v-application textarea:focus,
+.v-application input[readonly],
+.v-application input[type=password]:focus{box-shadow: none!important}
+.v-application input[type=text],.v-application input[type=number],.v-application textarea,
+.v-application input[type=password],.v-application input[readonly]{border: none!important}
+
+ 
+.block-bottom-fixed{
+     position: fixed;
+    right: 0;
+    left: 0;
+    margin-right: 26px;
+    margin-left: auto;
+    min-height: 7em;
+    width: 20%;
+    bottom: 0;
+}
+#trackorderapp,#bulkorderapp{display: inline-block!important;background: transparent!important}
+b, strong {
+    font-weight: 600;
+}
+button, input, select, textarea{
+    background-color: initial;
+    border-style: solid;
+}
+.v-dialog button, .v-dialog input, .v-dialog select,.v-dialog  textarea{
+    background-color: transparent;
+    border-style: none;
+}
+
+ .vselect input.readonly, .vselect input[readonly], .vselect textarea.readonly,.vselect textarea[readonly]{
+    background: transparent!important
+}
+#mainapp input[type=text]:focus,#mainapp input[type=number]:focus,#mainapp textarea:focus{box-shadow: none!important}
+#mainapp input[type=text],#mainapp input[type=number],#mainapp textarea{border: none!important}
+.v-application--is-ltr .v-text-field .v-label{z-index:1}
+[v-cloak] {display: none}
+
+.v-data-table tr{cursor: pointer}
+#mainapp input,#mainapp textarea{background: transparent}
+
+.v-dialog input[type=text]:focus,.v-dialog input[type=number]:focus,
+.v-dialog textarea:focus,.v-dialog input[type=password]:focus,
+.v-dialog input.readonly, .v-dialog input[readonly],.v-dialog  textarea.readonly, .v-dialog textarea[readonly]
+{box-shadow: none!important}
+.v-dialog input[type=text],.v-dialog input[type=number],.v-dialog textarea,.v-dialog input[type=password],
+.v-dialog  input.readonly, .v-dialog input[readonly], .v-dialog textarea.readonly, .v-dialog textarea[readonly]
+{border: none!important;background:  transparent!important}
+
+.date-picker-wrapper{z-index: 999999999999999999999}
+.table_payment_conf mark:after{display: none!important}
+.jexcel_content table{width: 100%;font-size: 18px}
+.badge-tentative, .badge-source {
+    background: red;
+    color: #fff;
+    padding: 2px 5px 4px 5px;
+    border-radius: 3px;
+}
+.wsc_company_shipping {  background: #eee;}
+.wsc-admin-box{width: 100%}
+.wsc-admin-box > tbody > tr > td{padding: 20px;}
+.wsc-admin-box > tbody > tr > td label{ font-weight: 700;}
+.wsc-admin-box > tbody > tr > td:first-child{width: 15%}
+
+.wsc-admin-box input{width:100%}
